@@ -1,0 +1,117 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-toggle:hover{
+    background-color: grey;
+}
+.navvy {
+    background-color: black;
+}
+
+.navvy a{
+    color: white;
+}
+
+#aboutMe {
+    margin-top: 30px;
+}
+
+#description {
+    display: inline-block;
+    
+    vertical-align: top;
+    text-align: center;
+}
+
+#profile {
+    max-width: 350px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+#skills p {
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+#skillsList {
+    text-align: center
+}
+
+.logo {
+    max-height: 40px;
+    margin-right: 30px;
+}
+#education {
+    margin-top: 40px;
+}
+
+#school {
+    display: block;
+    max-width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#schoolMark {
+    display: block;
+    max-height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#codingDojo {
+    display: block;
+    max-height: 70px;
+    margin: auto;
+}
+
+.form-input {
+    width: 70%;
+    padding: 7px 7px;
+    margin-bottom: 20px;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 6px solid grey;
+    background-color: transparent;
+}
+
+form textarea{
+    height: 80px;
+}
+form button {
+    background-color: rgb(49, 149, 158);
+    border: 1px solid black;
+    border-bottom: 6px solid black;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+}
+
+form button:hover {
+    background-color: black;
+    border: 1px solid grey;
+    border-bottom: 6px solid grey;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
